@@ -392,3 +392,47 @@ a{
     color: var(--btn-bg);
     margin-top: 18px;
 }
+
+.feature{
+    margin-top: 85px;
+    padding: 85px 0;
+}
+
+.feature-body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.feature__media{
+    width: 49%;
+    height: 491px;
+    position: relative;
+}
+
+.feature__img:first-child{
+    width: 89%;
+    height: 75%;
+    
+}
+
+.feature__img{
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+.feature__img:last-child{
+    width: 58%;
+    height: 75%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.feature__content{
+    width: 40%;
+}
+
+.feature__desc{
+    margin: 18px 0 38px;
+}
