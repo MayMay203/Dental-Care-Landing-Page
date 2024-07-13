@@ -525,3 +525,45 @@ a{
     border-color: var(--btn-bg);
     cursor: pointer;
 }
+
+.install{
+    margin-top: 180px;
+}
+
+.install__inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--btn-bg);
+    border-radius: 4px;
+    padding: 0 70px;
+}
+
+.install__img-app{
+    margin-top: -95px;
+    width: 284px;
+    height: 522px;
+    object-fit: cover;
+    vertical-align: bottom;
+}
+
+.install__content{
+    width: 586px;
+}
+
+.install__heading{
+    color: #fff;
+    width: 489px;
+}
+
+.install__desc{
+    color: #fff;
+    margin-top: 18px;
+}
+
+.install__row{
+    margin-top: 38px;
+    display: flex;
+    gap: 28px;
+}
+
